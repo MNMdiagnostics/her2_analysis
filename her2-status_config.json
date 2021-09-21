@@ -1,0 +1,19 @@
+{
+    "CLF_NAME" : "her2-status",
+    "SEED": 23,
+
+    "HOLDOUT_SIZE": 0.3,
+    "FOLDS": 3,
+    "REPEATS": 10,
+
+    "FEATURES_FILE": "../../data/processed/features/all_her2-status.csv",
+    "CLASSES_FILE": "../../data/processed/targets/her2-status.csv",
+    "CLASS_LABEL": "Class",
+    "TARGET_CLASSES": [1, 0],
+    "ALL_CLASSES": [1, 0],
+
+    "Y_TRAIN_FILE": "../../data/processed/ready_for_analysis/her2-status/y_train.csv",
+    "Y_HOLDOUT_FILE": "../../data/processed/ready_for_analysis/her2-status/y_holdout.csv",
+    "TRAIN_DATA_FILE": "../../data/processed/ready_for_analysis/her2-status/data_training.csv",
+    "HOLDOUT_DATA_FILE": "../../data/processed/ready_for_analysis/her2-status/data_holdout.csv",
+}
